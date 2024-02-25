@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #000000;
+}
+.main-heading {
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 100;
+  color: #ffffff;
+}
+.main-container {
+  display: flex;
+  min-height: 90vh;
+}
+.left-container {
+  border-right: 1px solid #ffffff;
+  height: 90vh;
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-flow: column;
+  gap: 4rem;
+}
+.right-container {
+  border-left: 1px solid #ffffff;
+  height: 90vh;
+  width: 50%;
+  padding: 13rem 2rem 0rem 2rem;
+}
+
+.project-title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.project1,
+.project2,
+.project3,
+.fl {
+  color: #03f7ff;
+}
+
+.first-project p,
+.second-project p,
+.third-project p {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+#tech-used {
+  margin: 1rem 0rem 0.5rem 0rem;
+  font-size: 1.7rem;
+  background: #03f7ff;
+  width: fit-content;
+  color: #000000;
+  padding: 0rem 1rem 0rem 1rem;
+  font-weight: 600;
+  border-radius: 0.2rem;
+}
+.first-project a,
+.second-project a,
+.third-project a {
+  display: flex;
+  gap: 0.3rem;
+  margin-top: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  width: fit-content;
+  padding: 0.3rem;
+}
+.first-project a:hover,
+.second-project a:hover,
+.third-project a:hover {
+  color: #03f7ff;
+}
+@media (max-width: 1024px) {
+  .left-container, .right-container{
+    padding-left: .4rem;
+    padding-right: .4rem;
+  }
+  .right-container{
+    padding-top: 15rem;
+  }
+  .main-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .project-title {
+    font-size: 2rem;
+    font-weight: 100;
+  }
+  .first-project p,
+  .second-project p,
+  .third-project p {
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 100;
+  }
+  .first-project a,
+  .second-project a,
+  .third-project a {
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    padding: 0;
+  }
+  #tech-used {
+    font-size: 1.3rem;
+    padding: 2px 2px;
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .left-container, .right-container{
+    padding-left: .4rem;
+    padding-right: .4rem;
+  }
+  .right-container{
+    padding-top: 12rem;
+  }
+  .main-heading {
+    font-size: 1rem;
+    margin-bottom: .6rem;
+  }
+  .project-title {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .first-project p,
+  .second-project p,
+  .third-project p {
+    font-size: .8rem;
+    text-align: justify;
+    font-weight: 100;
+  }
+  .first-project a,
+  .second-project a,
+  .third-project a {
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+    padding: 0;
+  }
+  #tech-used {
+    font-size: .9rem;
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .left-container, .right-container{
+    padding-left: .4rem;
+    padding-right: .4rem;
+  }
+  .main-heading {
+    font-size: 1rem;
+    margin-bottom: .6rem;
+  }
+  .project-title {
+    font-size: .9rem;
+  }
+  .first-project p,
+  .second-project p,
+  .third-project p {
+    font-size: .6rem;
+    text-align: justify;
+    font-weight: 100;
+  }
+  .first-project a,
+  .second-project a,
+  .third-project a {
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+    padding: 0;
+  }
+  #tech-used {
+    font-size: .7rem;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!----- Header Section ----->
+    <div class="header">
+      <div class="containerr">
+        <nav>
+          <h1>
+            <span class="spl-txt">S</span>yed
+            <span class="spl-txt">S</span>hahid
+          </h1>
+          <ul id="side-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="portfolio.html" target="_blank">Portfolio</a></li>
+            <li><a href="#skills-container">Skills</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+            <i data-lucide="x" id="cross"></i>
+          </ul>
+          <i data-lucide="align-justify" id="menu"></i>
+        </nav>
+      </div>
+    </div>
+    <!----- Main Content ----->
+    <div class="content">
+      <div class="left">
+        <!----- Intro Section Home Page----->
+        <section class="introduction">
+          <div class="role">
+            <p>I'm <span class="typedText spl-txt"></span></p>
+          </div>
+          <div class="summary">
+            <p>
+              I'am an enthusiast
+              <span class="spl-txt"> Web Developer</span> with a passion for
+              creating <span class="spl-txt">Dynamic Websites.</span> Looking
+              for an opportunity to prove myself.
+            </p>
+          </div>
+        </section>
+        <!----- Skills Section Home Page ----->
+        <section class="skills">
+          <p>What I Know</p>
+          <div class="skills-box">
+            <p id="skills-heading">Client-side:</p>
+            <div class="frontend">
+              <p>HTML5</p>
+              <p>CSS3</p>
+              <p id="bstrp">Bootstrap</p>
+              <p id="js">JavaScript</p>
+            </div>
+          </div>
+          <div class="skills-box">
+            <p id="skills-heading">Server-side:</p>
+            <div class="backend">
+              <p>Core Java</p>
+              <p id="advjava">Advance Java</p>
+              <p>MySQL</p>
+            </div>
+          </div>
+        </section>
+        <!----- Buttons Section Home Page ----->
+        <section class="buttons">
+          <a href="" download="S.Shahid Resume.pdf" id="btn" class="cv-btn"
+            >Download CV <i data-lucide="arrow-down-to-line"></i
+          ></a>
+          <form action="portfolio.html" target="_blank">
+            <button id="btn" class="folio-btn">
+              Portfolio <i data-lucide="book-open-text"></i>
+            </button>
+          </form>
+        </section>
+      </div>
+      <div class="right">
+        <img src="pictureeee.png" alt="prof-pic" />
+      </div>
+    </div>
+    <!------ skills container ------>
+    <section class="inner" id="skills-container">
+      <h1><span class="spl-txt">S</span>KILLS</h1>
+      <div class="container">
+        <div class="skill-box skillOne">
+          <div class="skill-title">
+            <div class="img">
+              <img src="html-logo.jpg" alt="html-pic" />
+            </div>
+            <p>HTML 5</p>
+          </div>
+          <p>Proficiency : Intermediate</p>
+        </div>
+
+        <div class="skill-box skillTwo">
+          <div class="skill-title">
+            <div class="img">
+              <img src="css-logo.png" alt="css-pic" />
+            </div>
+            <p>CSS 3</p>
+          </div>
+          <p>Proficiency : Intermediate</p>
+        </div>
+
+        <div class="skill-box skillThree">
+          <div class="skill-title">
+            <div class="img">
+              <img src="bootstrap-logo.png" alt="Bootstrap-pic" />
+            </div>
+            <p>Bootstrap</p>
+          </div>
+          <p>Proficiency : Beginner</p>
+        </div>
+
+        <div class="skill-box skillFour">
+          <div class="skill-title">
+            <div class="img">
+              <img src="JavaScript-logo.png" alt="js-pic" />
+            </div>
+            <p>JavaScript</p>
+          </div>
+          <p>Proficiency : Intermediate</p>
+        </div>
+
+        <div class="skill-box skillFive">
+          <div class="skill-title">
+            <div class="img">
+              <img src="java-logo.jpg" alt="java-pic" />
+            </div>
+            <p>Java</p>
+          </div>
+          <p>Proficiency : Intermediate</p>
+        </div>
+
+        <div class="skill-box skillSix">
+          <div class="skill-title">
+            <div class="img">
+              <img src="mysql-logo.jpg" alt="sql-pic" />
+            </div>
+            <p>MySQL</p>
+          </div>
+          <p>Proficiency : Intermediate</p>
+        </div>
+      </div>
+    </section>
+    <!------ Contact Container ------->
+    <section id="contact-section">
+      <div class="contact-left">
+        <h1>
+          <span class="spl-txt">C</span>ontact <span class="spl-txt">M</span>e
+        </h1>
+        <p>Email: shahid.syed9162@gmail.com</p>
+        <p>Mobile: +91 7672094960</p>
+        <div class="social-icons">
+          <a href=""><i data-lucide="linkedin" class="soc-icon"></i>Linkedin</a>
+          <a href=""><i data-lucide="github" class="soc-icon"></i>GitHub</a>
+          <a href=""
+            ><i data-lucide="instagram" class="soc-icon"></i>Instagram</a
+          >
+        </div>
+      </div>
+
+      <div class="contact-right">
+        <form action="">
+          <input type="text" name="Name" placeholder="Enter Name" required />
+          <input type="email" name="email" placeholder="Enter Email" required />
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Your message"
+          ></textarea>
+          <input type="submit" id="form-btn" value="Submit" />
+        </form>
+      </div>
+      <footer>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="portfolio.html" target="_blank">Portfolio</a></li>
+          <li><a href="#skills-container">Skills</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+        </ul>
+      </footer>
+      <div class="copyright">
+        <p>&copy;2023 Bangalore India, Inc. All rights reserved</p>
+        <p>
+          Copyright made with <i data-lucide="heart" id="dil"></i> by Syed
+          Shahid
+        </p>
+      </div>
+    </section>
+
+    <!----- Lucide Icons ----->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <!----- Typing JS ----->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!----- Scroll Reveal ----->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!----- Main JS ----->
+    <script src="script.js"></script>
+  </body>
+</html>
